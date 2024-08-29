@@ -8,3 +8,7 @@
 - react-leaflet
 - moment
 - react-paginate
+
+## Gif
+
+<img src="/public/radar-app-g.gif"/>
