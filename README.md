@@ -7,3 +7,4 @@
 - leaflet (harita)
 - react-leaflet
 - moment
+- react-paginate

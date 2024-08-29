@@ -37,7 +37,11 @@ const App = () => {
         </button>
       </div>
 
-      {isMapView ? <MapView setDetailId={setDetailId} /> : <ListView />}
+      {isMapView ? (
+        <MapView setDetailId={setDetailId} />
+      ) : (
+        <ListView setDetailId={setDetailId} />
+      )}
 
       {detailId && (
         <Modal detailId={detailId} close={() => setDetailId(null)} />

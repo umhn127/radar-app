@@ -12,8 +12,8 @@ export const getFlights = createAsyncThunk("flights/getFlights", async () => {
   const formatted = res.data.aircraft.map((item) => ({
     id: item[0],
     code: item[1],
-    lat: item[3],
-    lng: item[4],
+    lat: item[2],
+    lng: item[3],
   }));
 
   // 3) aksiyonun payload ı olarak formatlanan veriyi ekle
